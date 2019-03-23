@@ -43,7 +43,7 @@ spec:
       - secret:
           name: regcred
           items:
-            - key: dockerconfigjson
+            - key: .dockerconfigjson
               path: config.json
 """
 
